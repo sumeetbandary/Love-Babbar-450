@@ -26,7 +26,7 @@ void rvereseArray(int arr[], int start, int end)
 {
     if (start >= end)
         return;
-
+    //Swaping 
     int temp = arr[start];
     arr[start] = arr[end];
     arr[end] = temp;
